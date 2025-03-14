@@ -1,4 +1,4 @@
-module github.com/not-for-prod/starter/cmd/kick
+module github.com/not-for-prod/starter/cmd/start
 
 go 1.23.7
 

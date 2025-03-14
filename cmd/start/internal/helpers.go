@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 
 	"github.com/manifoldco/promptui"
-	"github.com/not-for-prod/starter/cmd/kick/internal/pkg/filewriter"
-	"github.com/not-for-prod/starter/cmd/kick/internal/pkg/logger"
+	"github.com/not-for-prod/starter/cmd/start/internal/pkg/filewriter"
+	"github.com/not-for-prod/starter/cmd/start/internal/pkg/logger"
 )
 
 func overwrite(path string) bool {

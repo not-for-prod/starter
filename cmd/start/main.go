@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/not-for-prod/starter/cmd/kick/internal"
-	"github.com/not-for-prod/starter/cmd/kick/internal/pkg/logger"
-	"github.com/not-for-prod/starter/cmd/kick/internal/templates"
+	"github.com/not-for-prod/starter/cmd/start/internal"
+	"github.com/not-for-prod/starter/cmd/start/internal/pkg/logger"
+	"github.com/not-for-prod/starter/cmd/start/internal/templates"
 	"github.com/spf13/cobra"
 )
 
