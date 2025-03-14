@@ -1,0 +1,19 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-json
+      - id: end-of-file-fixer
+  - repo: https://github.com/golangci/golangci-lint
+    rev: v1.61.0
+    hooks:
+      - id: golangci-lint
+        name: golangci-lint
+        description: Lint Go files.
+        entry: golangci-lint run
+        types: [go]
+        files: \.go$
+        language: golang
+        pass_filenames: false
