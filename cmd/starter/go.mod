@@ -1,4 +1,4 @@
-module github.com/not-for-prod/starter/cmd/start
+module github.com/not-for-prod/starter/cmd/starter
 
 go 1.23.7
 
